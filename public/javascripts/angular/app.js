@@ -100,7 +100,7 @@ myapp.directive('float', function(){
 myapp.factory('httpRequest', function($http){
     var factory = {};
     factory.getPredictor = function(data){
-        return $http.get('http://localhost:3001/api/get_prediction_data', {type :'',params: {"data_set": JSON.stringify({data:data})}});
+        return $http.get('http://tude.agiratech.com/api/get_prediction_data', {type :'',params: {"data_set": JSON.stringify({data:data})}});
     };
 
     return factory;
