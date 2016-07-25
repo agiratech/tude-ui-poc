@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en" ng-app="myapp">
   <head>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/nexus.css">
     <script type="text/javascript" src="/javascripts/angular/angular.js"></script>
     <script type="text/javascript" src="/javascripts/angular/ui-bootstrap-tpls.js"></script>
     <script type="text/javascript" src="/javascripts/angular/angular-cookies.js"></script>
@@ -11,12 +13,22 @@
     <script src="/javascripts/angular/highcharts.src.js"></script>
     <script src="/javascripts/angular/highcharts-more.js"></script>
     <script src="http://code.highcharts.com/stock/highstock.js"></script>
-    <script src="http://code.highcharts.com/stock/modules/exporting.js"></script> 
+    <script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
   </head>
   <body >
     <div>
         <div id="content-wrapper">
           <div class="page-content">
+            <div id="header">
+              <div class="container">
+                <div class="row">
+                <!-- Logo -->
+                <div class="logo">
+                </div>
+                <!-- End Logo -->
+                </div>
+              </div>
+            </div>
             <div ui-view></div> <!-- Main Content -->
           </div><!-- End Page Content -->
         </div><!-- End Content Wrapper -->

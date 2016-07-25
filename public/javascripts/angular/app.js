@@ -10,11 +10,11 @@ myapp.controller('myctrl', function ($scope,$http,httpRequest) {
           type: $scope.options.type
       },
       title: {
-          text: 'Monthly Average Temperature'
+          text: 'Mark predictor'
       },
-      subtitle: {
-          text: 'Source: WorldClimate.com'
-      },
+      // subtitle: {
+      //     text: 'Source: WorldClimate.com'
+      // },
       xAxis: {
           categories: ['Term3-2013','Term4-2013','Term1-2014','Term2-2014','Term3-2014','Term4-2014','Term1-2015','Term2-2015','Term3-2015','Term4-2015','Term1-2016','Term2-2016','Term3-2016','Term4-2016'],
           title: {
