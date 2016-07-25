@@ -36,13 +36,13 @@ myapp.controller('myctrl', function ($scope,$http,httpRequest) {
       },
       series: [{
           name: 'Actual',
-          // data: [30,50,85,60,45,23,80,60,45,20,50,60],
+          data: [0,0,0,0,0,0,0,0,0,0,0,0],
           type : 'line',
       },
 
       {
           name: 'Predited',
-          // data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+          data: [0,0,0,0,0,0,0,0,0,0,0,0]
       }],
 
         loading: false
@@ -66,7 +66,6 @@ myapp.controller('myctrl', function ($scope,$http,httpRequest) {
       httpRequest.getPredictor($scope.data).success(function(data, status){
           $scope.predictors = data["data"];
           $scope.tendLine = data["trend_line"];
-          console.log(data)
           $scope.highchartsNG.series = [{
               name: 'Actual',
               data: $scope.data
