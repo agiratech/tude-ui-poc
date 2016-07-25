@@ -1,0 +1,21 @@
+<div ng-controller="myctrl">
+  <div class="row">
+    <div class="col-md-6">
+      <input ng-model="sub1" float ng-init="sub1=30"/>
+      <input ng-model="sub2" float ng-init="sub2=50"/>
+      <input ng-model="sub3" float ng-init="sub3=85"/>
+      <input ng-model="sub4" float ng-init="sub4=60"/>
+      <input ng-model="sub5" float ng-init="sub5=45"/>
+    </div>
+    <div class="col-md-6">
+    <input ng-model="sub6" float  ng-init="sub6=23"/>
+      <input ng-model="sub7" float ng-init="sub7=80"/>
+      <input ng-model="sub8" float ng-init="sub8=60"/>
+      <input ng-model="sub9" float ng-init="sub9=45"/>
+      <input ng-model="sub10" float ng-init="sub10=20"/>
+      <input ng-model="sub11" float ng-init="sub11=50"/>
+      <input ng-model="sub12" float ng-init="sub12=60"/>
+    </div>
+     <button ng-click="addSeries()">Add Sub</button>
+  <highchart id="chart1" config="highchartsNG"></highchart>
+</div>
