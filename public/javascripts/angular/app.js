@@ -36,13 +36,13 @@ myapp.controller('myctrl', function ($scope,$http,httpRequest) {
       },
       series: [{
           name: 'Actual',
-          data: [0,0,0,0,0,0,0,0,0,0,0,0],
+          data: [80,85,60,92,80,70,87,66,75,91,79,85],
           type : 'line',
       },
 
       {
           name: 'Predited',
-          data: [0,0,0,0,0,0,0,0,0,0,0,0]
+          data: [80,85,54,96,85,36,100,85,18,100,85,39,100,85]
       }],
 
         loading: false
