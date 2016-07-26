@@ -42,7 +42,7 @@ myapp.controller('myctrl', function ($scope,$http,httpRequest) {
 
       {
           name: 'Predited',
-          data: [80,85,54,96,85,36,100,85,18,100,85,39,100,85]
+          data: [80,81,72,82,79,77,80,77,78,80,78,79,79,79]
       }],
 
         loading: false
