@@ -1,0 +1,105 @@
+<html lang="en" ng-app="Jurni">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Arun Test</title>
+  <meta name="keywords" content=" All, Test,comments" >
+  <meta name="description" content="Arun Test">
+  <!--FACEBOOK-->
+  <meta property="og:video" content="http://jurnistaging-video-uploads.s3.amazonaws.com/57a3211169702d7c6f270000/posts/57a488f369702d6ce3300000/p_job_57a488f369702d6ce3310000.mp4" >
+  <meta property="og:video:url" content="http://jurnistaging-video-uploads.s3.amazonaws.com/57a3211169702d7c6f270000/posts/57a488f369702d6ce3300000/p_job_57a488f369702d6ce3310000.mp4" >
+  <meta property="og:video:secure_url" content="http://jurnistaging-video-uploads.s3.amazonaws.com/57a3211169702d7c6f270000/posts/57a488f369702d6ce3300000/p_job_57a488f369702d6ce3310000.mp4" >
+  <meta property="og:video:width" content="350" >
+  <meta property="og:video:height" content="300" >
+  <meta property="og:image" content="http://d2qr0mtjrf60pn.cloudfront.net/profile_photo_576abd0269702d04e7190000_1466612994.png" >
+  <!--FACEBOOK-->
+
+  <link href="http://admin-jurni.agiratech.com/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://admin-jurni.agiratech.com/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <link href="http://admin-jurni.agiratech.com/css/animate.css" rel="stylesheet">
+  <link href="http://admin-jurni.agiratech.com/css/style.css" rel="stylesheet">
+  <link href="http://admin-jurni.agiratech.com/css/admin.css" rel="stylesheet">
+  <link href="http://admin-jurni.agiratech.com/bower_components/angular-busy/dist/angular-busy.css" rel="stylesheet">
+
+  <link href="//vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+  <script src="//vjs.zencdn.net/4.12/video.js"></script>
+  <script src="https://github.com/videojs/videojs-contrib-media-sources/releases/download/v0.1.0/videojs-media-sources.js"></script>
+  <script src="https://github.com/videojs/videojs-contrib-hls/releases/download/v0.11.2/videojs.hls.min.js"></script>
+
+  <link href="http://admin-jurni.agiratech.com/bower_components/tr-ng-grid/trNgGrid.css" rel="stylesheet">
+  <script src="http://admin-jurni.agiratech.com/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/underscore/underscore.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular/angular.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-resource/angular-resource.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-route/angular-route.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-devise/lib/devise-min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-cookie/angular-cookie.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/ng-token-auth/dist/ng-token-auth.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/tr-ng-grid/trNgGrid.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/moment/moment.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/momentjs/min/moment.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/momentjs/min/locales.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/humanize-duration/humanize-duration.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/externaljs/timer.js"></script>
+  <script src="http://admin-jurni.agiratech.com/bower_components/angular-busy/dist/angular-busy.js"></script>
+  <script src="//caitp.github.io/ng-media/ng-media.js"></script>
+  <script src='http://admin-jurni.agiratech.com/bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js'></script>
+  <script src='http://admin-jurni.agiratech.com/bower_components/aws-sdk-js/dist/aws-sdk.min.js'></script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body >
+  <nav class="navbar-default navbar-static-side" role="navigation">
+    <div id="video-post1">
+      <video  poster="http://dqh9nptcxpqse.cloudfront.net/576abd0269702d04e7190000/posts/57a491ef69702d3b26ca0000/thumbnail_00001$.png" class="pull-right" html5-video="http://jurnistaging-video-uploads.s3.amazonaws.com/57a3211169702d7c6f270000/posts/57a488f369702d6ce3300000/p_job_57a488f369702d6ce3310000.mp4"
+            controls='true'>
+      </video>
+    </div>
+  </nav>
+
+  <!-- Mainly scripts -->
+  <script src="http://admin-jurni.agiratech.com/js/jquery-2.1.1.js"></script>
+  <script src="http://admin-jurni.agiratech.com/js/bootstrap.min.js"></script>
+  <script src="http://admin-jurni.agiratech.com/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+  <script src="http://admin-jurni.agiratech.com/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+  <!-- Custom and plugin javascript -->
+
+  <script src="http://admin-jurni.agiratech.com/jurni/main.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/mainController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/UserController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/usersCreateController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/AdminUsersController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/signInController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/dashboardController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/postController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/pinsController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/postReportsController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/commentReportsController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/usersController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/commentsController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/postControllerDetail.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/usersDetailController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/commentsDetailController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/jobsController.js"></script>
+  <script src="http://admin-jurni.agiratech.com/jurni/controllers/reportersController.js"></script>
+
+
+  <script src="http://admin-jurni.agiratech.com/js/inspinia.js"></script>
+  <script src="http://admin-jurni.agiratech.com/js/plugins/pace/pace.min.js"></script>
+
+
+</body >
+
+</html>
